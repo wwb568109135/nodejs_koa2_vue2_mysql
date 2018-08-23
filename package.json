@@ -1,14 +1,13 @@
 {
-  "name": "vue-koa-demo",
+  "name": "nodejs_koa2_vue2_mysql",
   "version": "1.0.0",
-  "description": "A Vue.js & Koa project",
-  "author": "Molunerfinn <marksz@teamsz.xyz>",
+  "description": "A Vue.js & Koa2 project-nodejs_koa2_vue2_mysql",
+  "author": "wwb568109135 <568109135@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "server": "nodemon -w app.js -w server server-entry.js",
-    "test": "cross-env NODE_ENV=test jest --forceExit --runInBand",
     "coverage": "cat ./coverage/lcov.info | coveralls",
     "prod": "cross-env NODE_ENV=production node server-entry.js",
     "start": "npm run build && npm run prod",
