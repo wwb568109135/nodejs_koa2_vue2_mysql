@@ -1,6 +1,6 @@
-# vue-koa-demo
+# nodejs_koa2_vue2_mysql
 
-A fullstack demo used Vue2 & Koa2
+A fullstack demo used Vue2 & Koa2(nodejs_koa2_vue2_mysql)
 
 :sunny: Easy to setup and learn
 
@@ -9,14 +9,14 @@ A fullstack demo used Vue2 & Koa2
 :rocket: Instant feedback 
 
 
-
 ![Todolist](http://7xog0l.com1.z0.glb.clouddn.com/vue-koa-demo/todolist-5.gif 'todolist')
 
-
+### install（安装相关）
 `git clone `
 
 `npm install`
 
+`mysql config`
 Also you need to install MySQL & create a database named `todolist`,and execute 2 sql files `list.sql` & `user.sql`.Their are in `sql/`
 
 After that, create a `.env` file and set the database username & password:
@@ -41,15 +41,15 @@ DB_PASSWORD=YYYY
 PORT=8888
 ```
 
-### Run
+### Run（运行）
 
-> Node.js & Docker support. **You need to create a `.env` file as above**.
+> Node.js support. **You need to create a `.env` file as above**.
 
-### Node.js
+### Node.js（环境）
 
 Beacuse of using Koa2, `Node.js >= v7.6.0` is needed.
 
-#### Development: 
+#### Development（开发环境） 
 
 `npm run dev`
 `npm run server`
@@ -58,7 +58,7 @@ open browser: `localhost:8080`
 
 > tips: login password is 123
 
-#### Production:
+#### Production（生产环境）
 
 `npm run start` 
 
@@ -67,7 +67,7 @@ open browser: `localhost:8889`
 > tips: login password is 123
 
 
-## License
+## License（协议）
 
 [MIT](http://opensource.org/licenses/MIT)
 
