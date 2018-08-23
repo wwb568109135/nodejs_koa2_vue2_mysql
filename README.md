@@ -11,12 +11,13 @@ A fullstack demo used Vue2 & Koa2(nodejs_koa2_vue2_mysql)
 
 ![Todolist](http://7xog0l.com1.z0.glb.clouddn.com/vue-koa-demo/todolist-5.gif 'todolist')
 
-### install（安装相关）
+### Install（安装相关）
 `git clone `
 
 `npm install`
 
 `mysql config`
+
 Also you need to install MySQL & create a database named `todolist`,and execute 2 sql files `list.sql` & `user.sql`.Their are in `sql/`
 
 After that, create a `.env` file and set the database username & password:
